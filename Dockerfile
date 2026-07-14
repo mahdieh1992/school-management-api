@@ -10,4 +10,5 @@ ENV PYTHONUNBUFFERED=1
 
 # install dependencies
 COPY . /app
-RUN pip install -r requirements.txt
+RUN pip install --user -r requirements.txt
+

@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'apps.school',
     'apps.news',
     'apps.practice',
-    'apps.chat'
+    'apps.chat',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
